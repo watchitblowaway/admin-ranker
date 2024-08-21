@@ -196,7 +196,7 @@ Key.FocusLost:Connect(function(enterPressed)
 				else
 					for i = 1, 50 do
 						Counter.Text = "["..i.."/50]"
-						task.wait(0.05)
+						task.wait(6)
 					end
 					warn("HD-ADMIN: Unable to Connect to HD Admin Servers! Ratelimit In Process.")
 				end
