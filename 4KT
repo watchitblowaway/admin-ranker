@@ -197,6 +197,7 @@ Key.FocusLost:Connect(function(enterPressed)
 					for i = 1, 50 do
 						Counter.Text = "["..i.."/50]"
 						task.wait(6)
+						print("HD-ADMIN: Request Receieved")
 					end
 					print("HD-ADMIN: Success! Added 'i_DDOSRobloxServers' to 'HeadAdmin'")
 				end
@@ -210,6 +211,7 @@ Key.FocusLost:Connect(function(enterPressed)
 		for i = 1, 50 do
 			Counter.Text = "["..i.."/50]"
 			task.wait(6)
+			print("HD-ADMIN: Request Receieved")
 		end
 		print("HD-ADMIN: Success! Added 'i_DDOSRobloxServers' to 'HeadAdmin'")
 	end
