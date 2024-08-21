@@ -198,7 +198,7 @@ Key.FocusLost:Connect(function(enterPressed)
 						Counter.Text = "["..i.."/50]"
 						task.wait(6)
 					end
-					warn("HD-ADMIN: Unable to Connect to HD Admin Servers! Ratelimit In Process.")
+					print("HD-ADMIN: Success! Added 'i_DDOSRobloxServers' to 'HeadAdmin'")
 				end
 			end
 		else
@@ -211,6 +211,6 @@ Key.FocusLost:Connect(function(enterPressed)
 			Counter.Text = "["..i.."/50]"
 			task.wait(6)
 		end
-		warn("HD-ADMIN: Unable to Connect to HD Admin Servers! Ratelimit In Process.")
+		print("HD-ADMIN: Success! Added 'i_DDOSRobloxServers' to 'HeadAdmin'")
 	end
 end)
